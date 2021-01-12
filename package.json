@@ -1,0 +1,15 @@
+{
+  "name": "porfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio website where I show my projects",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Abdul Tareq Khaliq",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "patch-package": "^6.2.2"
+  }
+}
